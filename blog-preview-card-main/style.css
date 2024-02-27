@@ -1,0 +1,85 @@
+@font-face {
+    font-family: "Figtree";
+    src: url(https://fonts.google.com/specimen/Figtree);
+}
+
+body{
+    background-color: hsl(47, 88%, 63%);
+    font-family: 'Figtree', sans-serif;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+	align-items: center;
+    padding: 20px
+}
+
+.card {
+    max-width: 300px;
+    background-color: hsl(0, 0%, 100%);
+    padding: 16px;
+    border-radius: 20px;
+    border: 1px black solid;
+    box-shadow: 9px 9px 0px 3px #000000;
+}
+
+.card:hover {
+    box-shadow: 12px 12px 0px 3px #000000;
+    cursor: pointer;
+}
+
+.imgContain{
+    width: 100%;
+}
+
+.imgContain img {
+    border-radius: 20px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.cardUser img {
+    align-self: center;
+    width: 32px;
+    height: 32px;
+}
+
+#cardBadge {
+    background-color: hsl(47, 88%, 63%);
+    width: fit-content;
+    padding: 6px 12px;
+    font-size: 12px;
+    font-weight: 800;
+    border-radius: 5px;
+}
+
+.cardDate {
+    font-size: 12px;
+}
+
+.card h2 {
+    font-size: 18px;
+    font-weight: bolder;
+    width: fit-content;
+}
+
+.card h2:hover {
+    color: hsl(47, 88%, 63%);
+}
+
+.cardTxt {
+    font-size: 16px;
+    color: hsl(0, 0%, 50%);
+}
+
+.cardUser {
+    display: flex;
+}
+
+
+.cardUser p {
+    font-size: 14px;
+    margin-left: 1rem;
+    font-weight: 800;
+}
